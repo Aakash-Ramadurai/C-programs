@@ -1,0 +1,21 @@
+//Swap 2 numbers using 3rd variable
+
+#include <stdio.h>
+
+int main(){
+    int num1, num2, temp;  //number 1 , number 2 and third variable
+    printf("Enter numbers: \n");
+    scanf("%d %d", &num1,&num2);
+    temp=num1;
+    num1=num2;
+    num2=temp;
+    printf("Swapped Values: %d , %d", num1,num2); //After swapped
+    return 0;
+}
+
+
+Output:
+Enter numbers:
+5
+4
+Swapped Values: 4 , 5
