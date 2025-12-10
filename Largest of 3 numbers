@@ -1,0 +1,25 @@
+//To print the largest of 3 numbers
+
+#include <stdio.h>
+int a=10;
+int b=20;
+int c=30;
+int main(){
+    if(a>b && a>c)
+    {
+        printf("A is largest"); // Not true
+    }
+    else if(b>c)
+    {
+        printf("B is largest"); // Not true
+    }
+    else
+    {
+        printf("C is largest"); // True
+    }
+    
+    return 0;
+}
+
+Output:
+C is largest
