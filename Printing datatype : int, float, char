@@ -1,0 +1,29 @@
+//To print the datatype int, float, character
+
+#include <stdio.h>
+int main(){
+    int num1; // input - 5
+    char ch; // input - k
+    float num2; // input - 5.94
+    printf("Integer: "); 
+    scanf("%d", &num1);
+    
+    printf("Character: "); 
+    scanf(" %c", &ch);
+    
+    printf("Float: "); 
+    scanf("%f", &num2);
+    
+    printf("\nYou entered:\n");
+    printf("Integer: %d\n", num1); // Integer value
+    printf("Float: %f\n", num2); // Float value
+    printf("Character: %c\n", ch); // Character value
+    
+    return 0;
+}
+
+Output:
+You entered:
+Integer: 5
+Float: 5.940000
+Character: k
